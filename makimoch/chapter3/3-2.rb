@@ -1,7 +1,7 @@
 # Q3
 season = "春"
 if season != "夏"
-	puts "あんまん食べたい"
+  puts "あんまん食べたい"
 end
 
 # Q4
