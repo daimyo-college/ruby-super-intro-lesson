@@ -16,7 +16,7 @@ clear -> self
 
 ary = [1, 2]
 ary.clear
-p ary     #=> []
+p ary   #=> []
 =end
 
 drinks.clear

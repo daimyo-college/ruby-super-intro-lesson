@@ -3,7 +3,7 @@ puts "問12"
 
 ary = [1, 2, 3]
 results = ary.map do |item|
-    item * 3
+  item * 3
 end
 
 puts results
@@ -19,7 +19,7 @@ puts "問14"
 ary = ["aya", "achi", "Tama"]
 
 results = ary.map do |item|
-    item.downcase
+  item.downcase
 end
 
 puts results.sort

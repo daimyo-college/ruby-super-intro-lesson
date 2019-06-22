@@ -3,14 +3,14 @@ puts "問8"
 
 drinks = ["ティーラテ", "カフェラテ", "抹茶ラテ"]
 drinks.each do |drink|
-    puts drink
+  puts drink
 end
 
 # 問9
 puts "問9"
 
 drinks.each do |drink|
-    puts ("#{drink}お願いします")
+  puts ("#{drink}お願いします")
 end
 
 # 問10
@@ -19,7 +19,7 @@ puts "問10"
 temp_ary = [1, 2, 3]
 sum = 0
 temp_ary.each do |i|
-    sum+= i
+  sum += i
 end
 
 puts sum
@@ -34,5 +34,5 @@ drinks.push("カフェラテ")
 drinks.push("抹茶ラテ")
 
 drinks.each do |drink|
-    puts drink
+  puts drink
 end

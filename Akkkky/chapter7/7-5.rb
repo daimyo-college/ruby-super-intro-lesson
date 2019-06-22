@@ -1,17 +1,16 @@
 # 問9
-
 puts "問9"
 
 =begin
 def order
-    puts "#{drink}をください"
+  puts "#{drink}をください"
 end
 
 drink = "コーヒー"
 order
 
 Traceback (most recent call last):
-        1: from 7-5.rb:11:in `<main>'
+    1: from 7-5.rb:11:in `<main>'
 7-5.rb:7:in `order': undefined local variable or method `drink' for main:Object (NameError)
 
 ######
@@ -21,7 +20,7 @@ orderの引数にdrinkを設定し、オブジェクトを渡せるようにす�
 =end
 
 def order(drink)
-    puts "#{drink}をください"
+  puts "#{drink}をください"
 end
 
 drink = "コーヒー"
