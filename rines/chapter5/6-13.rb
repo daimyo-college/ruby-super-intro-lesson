@@ -1,0 +1,1 @@
+puts ["abc","xyz"].map{|text|text.reverse}
