@@ -4,4 +4,4 @@
         puts "モカ"
     end
 end
-puts "プラペチーノ"
+puts "フラペチーノ"
