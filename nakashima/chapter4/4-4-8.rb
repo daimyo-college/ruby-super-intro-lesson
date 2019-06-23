@@ -1,5 +1,5 @@
-coffes = %w(ティーラテ カフェラテ 抹茶ラテ)
+drinks = %w(ティーラテ カフェラテ 抹茶ラテ)
 
-coffes.each do |coffe|
-  puts coffe
+drinks.each do |drink|
+  puts drink
 end

@@ -1,10 +1,10 @@
-session = "秋"
+season = "秋"
 
-case session
+case season
 when "春"
   puts "アイスを買っていこう"
 when "夏"
   puts "かき氷を買っていこう"
-else "秋" || "冬"
+else 
   puts "あんまんを買っていこう"
 end
