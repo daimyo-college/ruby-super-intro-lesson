@@ -13,7 +13,7 @@ result = ["adc","xyz"].map(&:reverse)
 p result
 
 result = ["aya","achi","Tama"].map do |cat|
-  cat.downcase
+cat.downcase
 end
 result = result.sort
 p result

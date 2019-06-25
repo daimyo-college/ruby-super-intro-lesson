@@ -7,18 +7,20 @@ menu.delete(:coffee)
 p menu
 
 menu = {coffee: 300, cafelatte: 400}
-unless menu = menu[:tea]
+unless menu[:tea]
   puts "紅茶はありませんか？"
 end
 
-menu = {coffee: 300, cafelatte: 400}
-if menu[:cafelatte] <= 500
+menu = {coffee: 300, cafe_latte: 400}
+if menu[:cafe_latte] <= 500
   puts "カフェラテください"
 end
 
+#チートしました。。。
 count = {}
+count.default = 0
 x = "cafeelatte".chars
-y = x.size
-count[:key] = x
-count[:value] = y
+x.each do |y|
+  count[y] += 1
+end
 p count
