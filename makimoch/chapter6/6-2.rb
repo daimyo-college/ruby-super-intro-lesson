@@ -23,7 +23,7 @@ end
 # Q7
 text = "caffelatte".chars
 count = Hash.new(0)
-  text.each do |x|
+text.each do |x|
   count[x] += 1
 end
 p count
