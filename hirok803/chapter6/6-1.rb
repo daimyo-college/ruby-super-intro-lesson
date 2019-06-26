@@ -1,2 +1,2 @@
-menu = {coffee: 300, cafe_latte: 400}
-puts menu[:cafe_latte]
+menu = {coffee: 300, caffe_latte: 400}
+puts menu[:caffe_latte]
