@@ -12,11 +12,11 @@ puts order("モカ")
 puts "問5"
 
 def re_dice
-  result = (1..6).to_a.sample 
+  result = (1..6).to_a.sample
 
   puts result
 
-  while result === 1
+  while result == 1
     puts "もう一回" 
     result = (1..6).to_a.sample
     puts result
