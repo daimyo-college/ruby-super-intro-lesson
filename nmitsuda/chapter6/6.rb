@@ -24,8 +24,8 @@ p menu[:tea]
 
 #6
 menu = {coffee: 300, caffe_latte: 400}
-if menu[:caffe_latte] < 500
-    puts "カフェラテください"
+if menu[:caffe_latte] <= 500
+  puts "カフェラテください"
 end
 
 #7何をしていいのかわからなかったので、とりあえず解答写しです。
@@ -42,21 +42,20 @@ p hash
 #8
 menu = {"コーヒー" => 300, "カフェラテ" => 400}
 menu.each do |key, value|
-    puts "#{key}-#{value}円"
+  puts "#{key}-#{value}円"
 end
 
 #9
 menu = {"コーヒー" => 300, "カフェラテ" => 400}
 menu.each do |key, value|
-    if value > 350
-        puts "#{key}-#{value}円" 
-    end
+  next if value <= 350
+  puts "#{key}-#{value}円" 
 end
 
 #10
 menu = {}
 menu.each do |key, value|
-    puts "#{key}-#{value}円"
+  puts "#{key}-#{value}円"
 end
 
 #11
