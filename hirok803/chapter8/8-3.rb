@@ -1,4 +1,4 @@
 class CaffeLatte
 end
-a =CaffeLatte.new
+a = CaffeLatte.new
 p a.class
