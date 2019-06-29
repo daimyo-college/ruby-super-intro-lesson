@@ -1,0 +1,11 @@
+div.omikuji{
+  width: 179px;
+}
+
+p.omikuji{
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
