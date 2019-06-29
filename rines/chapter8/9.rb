@@ -11,5 +11,5 @@ class Food < Item
 end
 
 food = Food.new
-food.name=("チーズケーキ")
+food.name = "チーズケーキ"
 puts food.name

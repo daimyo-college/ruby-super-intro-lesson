@@ -8,5 +8,5 @@ class Item
 end
 
 item = Item.new
-item.name=("チーズケーキ")
+item.name = "チーズケーキ"
 puts item.name
