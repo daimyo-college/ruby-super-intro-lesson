@@ -1,5 +1,5 @@
 module WhippedCream
   def self.info
-  "トッピング用ホイップクリーム"
+    "トッピング用ホイップクリーム"
   end
 end
