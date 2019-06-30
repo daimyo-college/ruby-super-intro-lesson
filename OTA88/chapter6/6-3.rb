@@ -17,7 +17,7 @@ menu9 = {}
 # p menu9
 # p menu9.class
 menu9.each do |key, value|
-    puts "#{key}-#{value}円"
+  puts "#{key}-#{value}円"
 end
 
 menu10 = {"コーヒー" => 300, "カフェラテ" => 400}

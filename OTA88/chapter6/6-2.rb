@@ -30,7 +30,8 @@ p hash_caffelatte.class
 array_caffelatte.each do |x|
   key = x
   value = array_caffelatte.count(x)
-  hash_caffelatte.store(key, value)
+  # hash_caffelatte.store(key, value)
+  hash_caffelatte[key] = value
 end
 
 p hash_caffelatte
