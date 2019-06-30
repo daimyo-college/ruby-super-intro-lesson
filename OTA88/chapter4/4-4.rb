@@ -1,10 +1,10 @@
 #ゼロからわかるRuby超入門 -4章練習問題-
 
 #4-4
-latte = ["ティーラテ", "カフェラテ", "抹茶ラテ"]
-p latte
+latte_list = ["ティーラテ", "カフェラテ", "抹茶ラテ"]
+p latte_list
 order = "お願いします"
-latte.each do |l|
+latte_list.each do |l|
   puts l + order
 end
 
@@ -18,8 +18,8 @@ puts sum.class
 # p sum
 # p sum.class
 
-l = []
-p l
-l.each do |l|
+latte_list = []
+p latte_list
+latte_list.each do |l|
   puts l
 end
