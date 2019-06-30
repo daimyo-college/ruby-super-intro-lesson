@@ -6,9 +6,11 @@
 # puts season.class
 season = "春"
 case season
-when season = "春"
+# when season = "春" ※下記へと修正
+when "春"
   puts "アイスを買っていこう！"
-when season = "夏"
+# when season = "夏" ※下記へと修正
+when "夏"
   puts "かき氷を買ってこう！"
 else
   puts "あんまんを買ってこう！"
