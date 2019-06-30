@@ -1,10 +1,7 @@
 def price(item:)
-  case item
-  when "コーヒー"
-    puts 300
-  when "カフェラテ"
-    puts 400
-  end
+  drinks = { "コーヒー" => 300, "カフェラテ" => 400}
+  drinks[item]
 end
 
-price(item: "コーヒー")
+puts price(item: "コーヒー")
+puts price(item: "カフェラテ")
