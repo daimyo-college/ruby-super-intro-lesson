@@ -18,7 +18,7 @@ puts food.name
 #親クラスで呼び出す
 class Item
   def hoge
-   puts @hoge
+    @hoge
   end
   def hoge=(text)
     @hoge = text
@@ -33,7 +33,7 @@ end
 
 food = Food.new
 food.hoge = "チーズケーキ"
-food.hoge
+puts food.hoge
 
 
 

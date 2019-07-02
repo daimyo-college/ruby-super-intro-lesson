@@ -2,6 +2,6 @@ def order(drink)
   puts "#{drink}をください"
 end
 
-#drink = "コーヒー"
-order("コーヒー")
+drink = "コーヒー"
+order(drink)
 

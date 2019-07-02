@@ -1,6 +1,5 @@
 def area
-  x = 3
-  p x * x
+  3 * 3
 end
 
-area
+puts area

@@ -1,13 +1,13 @@
-def price(item)
+def price(item:)
   case item
   when "コーヒー"
-    puts 300
+    300 
   when "モカ"
-    puts 400
+    400
   end
 end
 
-price("コーヒー")
-price("モカ")
+puts price(item: "コーヒー")
+puts price(item: "モカ")
     
   
