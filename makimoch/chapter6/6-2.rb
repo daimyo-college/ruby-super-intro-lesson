@@ -22,9 +22,8 @@ end
 
 # Q7
 text = "caffelatte".chars
-index = []
-text.each_index{|a|
-  index.push(a)
-}
-hash = Hash[index.zip text]
-# .zipっていうのを使ってみたかった
+count = Hash.new(0)
+text.each do |x|
+  count[x] += 1
+end
+p count
