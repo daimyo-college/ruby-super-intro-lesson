@@ -1,11 +1,11 @@
 # Q5
 # 見慣れない後置unless,さらにunlessの下はelseが省略されている.見慣れてないと難しく感じる
 def dice
-num = [*(1..6)].sample
+  num = [*(1..6)].sample
   return num unless num == 1
-    puts "もう1回"
-    [*(1..6)].sample
-  end
+  puts "もう1回"
+  [*(1..6)].sample
+end
 
 puts dice
 
