@@ -1,7 +1,7 @@
 def price(item:)
   menu = {"コーヒー" => 300 , "カフェラテ" => 400}
-  p menu[item]
+  menu[item]
 end
 
-price(item: "コーヒー")
-price(item: "カフェラテ")
+puts price(item: "コーヒー")
+puts price(item: "カフェラテ")
