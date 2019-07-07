@@ -1,5 +1,5 @@
 class Item
-  def name= (text)
+  def name=(text)
     @name = text
   end
   def name
@@ -7,7 +7,7 @@ class Item
   end
 end
   
-item =Item.new
+item = Item.new
 item.name = "チーズケーキ"
-p item.name
+puts item.name
   
