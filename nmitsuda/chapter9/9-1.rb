@@ -1,5 +1,5 @@
 module ChocolateChip
   def chocolate_chip
-  @name += "チョコレートチップ"
+    @name += "チョコレートチップ"
   end
 end
