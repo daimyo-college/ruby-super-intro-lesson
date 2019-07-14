@@ -20,3 +20,12 @@ sum = 0
   sum = sum + x
 end
 puts sum
+
+puts "---------------------------------------------"
+
+# 問11
+buf = []
+buf.each do |x|
+  buf = buf + x
+end
+puts buf
