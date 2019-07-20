@@ -1,6 +1,6 @@
 # 問3
 puts "問3"
-put "Ruby"
+puts "Ruby"
 
 #問4
 puts "問3"
